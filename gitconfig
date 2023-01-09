@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -50,5 +50,5 @@
 [pull]
   rebase = false
 [user]
-	email = samuelschwob@Ãgmail.com
-	name = samuel schwob
+	email = samuelschwob@gmail.com
+	name = Samuel Schwob
